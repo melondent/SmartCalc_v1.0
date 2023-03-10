@@ -22,4 +22,6 @@ In terminal go to project folder and run make uninstall.
 
 ## App
 
-In the folder "SmartCalc" you can find the already builded app.# SmartCalc_v1.0
+In the folder "SmartCalc" you can find the already builded app.
+
+# SmartCalc_v1.0
