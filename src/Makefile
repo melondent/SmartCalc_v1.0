@@ -19,13 +19,13 @@ build:
 	mkdir build
 	cd ./build/ && qmake ../ && make
 
-install: build
-	@mkdir ../SmartCalc
-	@cp -rf $(APP) ../SmartCalc
+install: uninstall build
+	@mkdir $(HOME)/Desktop/SmartCalc
+	@cp -rf $(APP) $(HOME)/Desktop/SmartCalc
 	make clean
 
-uninstall:
-	@rm -rf ../SmartCalc*
+uninstall: clean
+	@rm -rf $(HOME)/Desktop/SmartCalc*
 
 dvi:
 	open dvi.html

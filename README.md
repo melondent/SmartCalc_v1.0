@@ -7,6 +7,8 @@ In addition to basic arithmetic operations such as add/subtract and multiply/div
 
 The app also support the use of the x variable and the graphing of the corresponding function.
 
+![SmartCalc](images/smartcalc.png)
+
 * used Dijkstra's algorithm and reverse polish notation in C
 * created GUI using C++(QT 5)
 * the project is covered with tests using the check.h library (make test)
